@@ -1,0 +1,65 @@
+.html {
+    height: none;
+    width: 100%;
+}
+
+section p {
+    line-height: 1.5;
+    margin: 10px 0px 10px 0px;
+}
+
+.front-main {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    margin: 20px 0px 20px 0px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 1rem;
+    display: flex;
+    margin: 20px 0px 20px 0px;
+    line-height: 1.6rem;
+}
+
+
+article {
+    padding: 25px;
+}
+
+.cetreret {
+    width: none;    
+    align-self: center;
+}
+
+.img-midt {
+    width: 312px;
+}
+
+
+@media(min-width: 376px){
+    h1 {
+        size: 2.5rem;
+    }
+    
+    .html {
+        height: 520px;
+    }
+    
+    .cetreret {
+        width: 670px;
+    }
+    .img-midt {
+        width: 670px;
+    }
+ 
+    h1 {
+        font-size: 3rem;
+    
+}

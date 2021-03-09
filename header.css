@@ -1,0 +1,95 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+margin: 0;
+}
+
+header {
+    display: flex;
+    min-height: 56px;
+    background-color: #c40000;
+    padding: 0px 30px 0px 30px;
+}
+
+.header-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 129px;
+    height: 33px;   
+}
+
+label {
+    cursor: pointer;
+    color: #ffffff;
+}
+
+
+input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ nav{
+    display: block;
+}
+
+nav {
+    flex-basis: 100%;
+    display: none;
+}
+
+nav ul{
+    font-size: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-top: 0px;
+    line-height: 2em    ;
+}
+
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media(min-width: 376px){
+
+    .fa-ellipsis-v {
+        display: none;
+    }
+
+    label {
+        display: none;
+    }
+
+    nav {
+        flex-basis: 80%;
+        display: block;
+        justify-content: space-between;
+    }
+    
+    nav ul li {
+        margin-right: 10px;
+        line-height: 2em    ;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        align-self: flex-end;
+        width: none ;
+
+    }
+}

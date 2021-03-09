@@ -1,0 +1,28 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+margin: 0;
+}
+
+footer {
+    height: 175px;
+    background-color: #5d4646;
+    padding: 20px 20px 0px 20px;
+}
+
+footer p {
+    line-height: 1.5;
+    color:#ffffff;
+    margin: 10px;
+}
+.footer-parent {
+    display: flex;
+    flex-direction: column;
+}
+
+.rts {
+    align-self: center;
+    font-size: 0.85rem;
+}

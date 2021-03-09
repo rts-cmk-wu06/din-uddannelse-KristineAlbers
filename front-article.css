@@ -1,0 +1,79 @@
+main {
+    height: none;
+}    
+
+section p {
+    line-height: 1.5;
+    margin: 10px 25px 10px 25px;
+}
+
+.article22 {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+
+.front-main {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+background-color: #c40000;
+padding: 15px;
+border: none;
+color: #ffffff;
+text-align: center;
+cursor: pointer;
+width: 157px;
+height: 45px;
+border-radius: 25px;
+text-transform: uppercase;
+margin: 40px 30px 20px 30px;
+}
+
+.container-mdskole {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-mdskole2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.front-article {
+    display: flex;
+    flex-flow: column wrap;
+    height: 336;
+    width: 312;
+    background-color: #f1ebeb;
+    margin: 25px;
+}
+
+.button {
+    align-self: flex-end;
+}
+
+.html2 {
+    height: 360px;
+}
+
+@media(min-width: 376px){
+    main {
+        height: 980px;
+    }
+    .container-mdskole {
+        flex-direction: row;
+    }
+
+    .front-main {
+        flex-direction: row;
+    }
+    
+    .article22 {
+        width: 510px;
+    }
+    
+
+}    

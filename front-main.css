@@ -1,0 +1,51 @@
+.html {
+    height: 210px;
+    margin: none;
+}
+
+.mdrskole {
+    color: #ffffff;
+    background-color: #c40000;
+    margin: 0;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 7px 20px 7px 20px;
+}
+
+section p {
+    line-height: 1.5;
+    margin: 10px 25px 10px 25px;
+}
+
+button {
+background-color: #c40000;
+padding: 15px;
+border: none;
+color: #ffffff;
+text-align: center;
+cursor: pointer;
+width: 157px;
+height: 45px;
+border-radius: 25px;
+text-transform: uppercase;
+margin: 40px 30px 20px 30px;
+}
+
+.front-main {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.button {
+    align-self: flex-end;
+}
+
+@media(min-width: 376px){
+
+
+    .html {
+        height: 300px;
+        width: 50%;
+        margin-bottom: 25px;
+    }
+}

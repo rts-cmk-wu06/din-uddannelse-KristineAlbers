@@ -1,0 +1,41 @@
+h1 {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+p {
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    background-color: #c40000;
+    padding: 15px;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    width: 157px;
+    height: 45px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    margin: 40px 30px 20px 30px;
+    align-self: flex-end;
+    }
+    
+
+
+
+
+@media(min-width: 376px){
+    h1 {
+        size: 2.5rem;
+    }
+    
+
+
+}
